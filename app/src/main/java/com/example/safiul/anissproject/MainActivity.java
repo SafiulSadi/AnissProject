@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView ageTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //command linje
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         nameTextView = (TextView) findViewById(R.id.nameTextViewId);
